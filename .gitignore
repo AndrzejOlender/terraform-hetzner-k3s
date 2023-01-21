@@ -1,0 +1,2 @@
+*.tfstate.*
+kube_config.yml

@@ -1,2 +1,4 @@
 *.tfstate.*
 kube_config.yml
+*.lock.*
+.terraform/

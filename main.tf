@@ -28,7 +28,7 @@ module "k3s" {
   # insert the 1 required variable here
   hetzner_token = var.hetzner_token
   cluster_name  = "k3s"
-  ssh_file        = "~/.ssh/id_ssh"
+  ssh_file        = var.ssh_mac
   main_pool_config = {
     node_type = "cx11"
     num_nodes = 1

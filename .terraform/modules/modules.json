@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"k3s","Source":"registry.terraform.io/BerndDA/k3s/hcloud","Version":"0.1.9","Dir":".terraform/modules/k3s"},{"Key":"k3s.infra","Source":"./infra","Dir":".terraform/modules/k3s/infra"},{"Key":"k3s.k3s","Source":"./k3s","Dir":".terraform/modules/k3s/k3s"}]}

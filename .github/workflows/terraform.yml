@@ -22,7 +22,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Create id_ssh and id_ssh.pub
+    - name: Create id_ssh and id_ssh.pub 
       env:
         ID_SSH: ${{ secrets.ID_SSH }}
         ID_SSH_PUB: ${{ secrets.ID_SSH_PUB }}

@@ -14,4 +14,3 @@ module "k3s" {
   k3s_version = "v1.25.5+k3s2"
   location = "nbg1"
 }
-

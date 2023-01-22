@@ -31,7 +31,6 @@ jobs:
         touch id_ssh.pub
         echo "$ID_SSH" > id_ssh
         echo "$ID_SSH_PUB" > id_ssh.pub
-        echo "cat id_ssh"
       shell: bash
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token

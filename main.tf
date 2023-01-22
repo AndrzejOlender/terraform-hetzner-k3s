@@ -12,5 +12,6 @@ module "k3s" {
     num_nodes = 2
   }
   k3s_version = "v1.25.5+k3s2"
+  location = "nbg1"
 }
 

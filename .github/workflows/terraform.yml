@@ -21,7 +21,7 @@ jobs:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v2
-
+    # Add id_ssh and id_ssh.pub
     - name: Create id_ssh and id_ssh.pub 
       env:
         ID_SSH: ${{ secrets.ID_SSH }}

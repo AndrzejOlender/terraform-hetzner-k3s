@@ -1,1 +1,0 @@
-${{ secrets.ID_SSH_PUB }}

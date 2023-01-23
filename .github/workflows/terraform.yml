@@ -27,8 +27,8 @@ jobs:
         ID_SSH: ${{ secrets.ID_SSH }}
         ID_SSH_PUB: ${{ secrets.ID_SSH_PUB }}
       run: |
-        touch id_ssh
-        touch id_ssh.pub
+        touch id_ssh && chmod 400 id_ssd
+        touch id_ssh.pub && chmod 400 id_ssh.pub
         echo "$ID_SSH" > id_ssh
         echo "$ID_SSH_PUB" > id_ssh.pub
       shell: bash

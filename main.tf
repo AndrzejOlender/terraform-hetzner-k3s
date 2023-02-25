@@ -9,7 +9,7 @@ module "k3s" {
   }
   worker_pool_config = {
     node_type = "cx21"
-    num_nodes = 2
+    num_nodes = 0
   }
   k3s_version = "v1.25.5+k3s2"
   location = "nbg1"

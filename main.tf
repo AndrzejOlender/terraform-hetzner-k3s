@@ -4,7 +4,7 @@ module "k3s" {
   hetzner_token = var.hetzner_token
   cluster_name  = "k3s"
   main_pool_config = {
-    node_type = "cx11"
+    node_type = "cx21"
     num_nodes = 1
   }
   worker_pool_config = {

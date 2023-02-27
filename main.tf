@@ -11,6 +11,6 @@ module "k3s" {
     node_type = "cx21"
     num_nodes = 0
   }
-  k3s_version = "v1.25.5+k3s2"
+  k3s_version = "v1.26.1+k3s1"
   location = "nbg1"
 }
